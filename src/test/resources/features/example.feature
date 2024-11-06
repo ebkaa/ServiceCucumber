@@ -8,6 +8,7 @@ Feature: Online Process
   Rule:RuleDeneme
     Background: Background
 
+  @Tag1
   Scenario: getRequest
 
     * get request to "posts/1"
